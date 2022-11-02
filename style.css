@@ -1,0 +1,93 @@
+html, body, .capa{
+    height: 100%;
+}
+
+body{
+    background: url('images/capa.png'), url('images/ruido.png'), linear-gradient(50deg, #ff4169, #7c26f8 100%);
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* barra de navegação */
+.img-logo{
+    height: 40px;
+    width: 132px;
+    display: block;
+    background: url('images/spotifly.png') no-repeat;
+    background-size: contain;
+}
+
+nav.navbar-transparente{
+    padding: 15px 0px;
+    background: rgba(0, 0, 0, 0.6);
+    border: none;
+}
+
+.navbar-brand{
+    padding: 5px 15px;
+}
+
+.divisor{
+    width: 1px;
+    height: 16px;
+    background: white;
+    margin: 16px 10px;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+    color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover{
+    color: #9bf0e1;
+}
+/* formatação de textos */
+h1{
+    font-size: 100px;
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
+}
+
+/* capa principal */
+.capa{
+    display: table;
+    width: 100%;
+}
+
+.texto-capa{
+    text-align: center;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/* botões */
+.btn-custom{
+    color: white;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    padding: 10px 35px;
+    margin: 0px 15px;
+    text-transform: uppercase;
+    transition: background 0.4s, color: 00.4s;
+}
+
+.btn-purple{
+    background: #7c26f8;
+}
+
+.btn-purple:hover{
+    background: #6207e3;
+    color: white;
+}
+
+.btn-white{
+    border: 2px solid white;
+}
+
+.btn-white:hover{
+    background-color: white;
+    color:black;
+}
